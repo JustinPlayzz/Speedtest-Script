@@ -20,6 +20,7 @@ SUPPORTED=false
 [[ "${OS_RELEASE_ID}" == "ubuntu" && "${OS_RELEASE_VERSION_ID}" =~ "20.10" ]] && SUPPORTED=true
 [[ "${OS_RELEASE_ID}" == "ubuntu" && "${OS_RELEASE_VERSION_ID}" =~ "21.04" ]] && SUPPORTED=true
 [[ "${OS_RELEASE_ID}" == "ubuntu" && "${OS_RELEASE_VERSION_ID}" =~ "21.10" ]] && SUPPORTED=true
+[[ "${OS_RELEASE_ID}" == "ubuntu" && "${OS_RELEASE_VERSION_ID}" =~ "22.04" ]] && SUPPORTED=true
 
 [[ "${OS_RELEASE_ID}" == "debian" && "${OS_RELEASE_VERSION_ID}" == "8"     ]] && SUPPORTED=true
 [[ "${OS_RELEASE_ID}" == "debian" && "${OS_RELEASE_VERSION_ID}" == "9"     ]] && SUPPORTED=true
